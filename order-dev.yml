@@ -14,3 +14,7 @@ server:
 env:
   dev
 
+girl:
+  name: lanlan
+  age: 18
+
