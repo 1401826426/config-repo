@@ -16,7 +16,7 @@ spring:
 
 redis:
   host: 127.0.0.1
-  password: peng195716#
+#  password: peng195716#
   poolMaxIdle: 10
   poolMaxTotal: 10
   poolMaxWait: 3
