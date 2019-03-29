@@ -4,6 +4,10 @@ zuul:
       path: /myProduct/**
       serviceId: product
       sensitiveHeaders:
+    myProduct1:
+      path: /myProduct1/**
+      serviceId: product
+      sensitiveHeaders:
 #  ignored-patterns:
 #    - /product/product/productByIds
 
