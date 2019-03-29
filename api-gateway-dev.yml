@@ -9,7 +9,7 @@ zuul:
       serviceId: product
       sensitiveHeaders:
   ignored-patterns:
-    - /product/product/productByIds
+    - /product/product/list
 
 management:
   endpoints:
