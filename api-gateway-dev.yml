@@ -4,8 +4,8 @@ zuul:
       path: /myProduct/**
       serviceId: product
       sensitiveHeaders:
-#  ignored-patterns:
-#    - /product/product/productByIds
+  ignored-patterns:
+    - /product/product/productByIds
 
 management:
   endpoints:
