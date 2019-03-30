@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123qwert
+    url: jdbc:mysql://127.0.0.1:3306/cloud?characterEncoding=utf-8
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 8763
+
+redis:
+  host: 127.0.0.1
+#  password: peng195716#
+  poolMaxIdle: 10
+  poolMaxTotal: 10
+  poolMaxWait: 3
+  port: 6379.0
+  timeout: 3
+
+env:
+  dev
+
+girl:
+  name: lanlan
+  age: 21
+
